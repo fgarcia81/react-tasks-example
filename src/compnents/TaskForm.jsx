@@ -20,7 +20,7 @@ export function TaskForm() {
 
     <div className="max-w-md mx-auto">
     <form onSubmit={handleSubmit} className="bg-slate-800 p-10 mb-4">
-      <h1 className="text-2x1 font-bold mb-3 text-white">Crea tu tarea</h1>
+      <h1 className="text-2x1 font-bold mb-3 text-white">Creacion de tareas</h1>
       <input className="bg-slate-100 p3 w-full mb-2"
         placeholder="Escribe tu tarea"
         onChange={(e) => setTitle(e.target.value)}
