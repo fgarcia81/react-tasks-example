@@ -9,5 +9,5 @@ export default defineConfig({
     react(),
     tailwindcss()    
   ],
-  base:'/react-tasks-example/'
+  base:process.env.VITE_BASE_PATH || '/react-tasks-example'
 })
